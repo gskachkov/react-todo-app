@@ -1,0 +1,40 @@
+#root {
+  display: flex;
+  height: 100%;
+}
+
+.todo {
+  padding: 30px;
+}
+
+.todo-card {
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.todo-list {
+  padding: 0;
+}
+
+.todo-item {
+  list-style: none;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-form {
+  justify-content: space-between;
+}
+
+.todo-form > div:last-child {
+  margin-right: 0;
+}
+
+.todo-form-input {
+  flex: 1!important;
+}
+.todo-form-actions {
+  flex: 0!important;
+}
